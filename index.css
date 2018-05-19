@@ -1,0 +1,28 @@
+h2 {
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: auto;
+  //width: 50%;
+  //padding: 10px;
+  text-align: center;
+  color: white;
+  
+  position: relative;
+  bottom: 6%;
+  //bottom: 1em;
+  //padding: 1em;
+  //padding-top: 1.7em;
+}
+
+body {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+  flex-direction: column;
+  //margin: 1em;
+}
