@@ -1,0 +1,47 @@
+/*#content {
+  margin: auto;
+  //height: 100%;
+  //width: 100%;
+  //background-color: white;
+}*/
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height:100%;
+  width: 100%;
+  margin: 0;
+}
+
+/* Chrome (and probably other browsers too)
+   reformats the nav to be inside the body tag
+   even if I put it outside it .... */
+#outercontent {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  //margin: 0 0 1em 0;
+  //display: flex;
+}
+
+#content {
+  padding-top: 0.5em;
+  margin: 0.7em;
+}
+
+#content p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#content ul {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#content li {
+  padding-top: 0;
+  margin-top: 0;
+}

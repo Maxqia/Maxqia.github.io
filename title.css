@@ -1,5 +1,12 @@
+html {
+  height: 100%;
+  //background-color: #465875;
+  background-color : #4b555f;
+  font-size: 1.6em;
+}
+
 /* Navbar Stuff */
-ul {
+ul#navlist {
   list-style: none;
   //display: inline;
   display:flex;
@@ -45,10 +52,7 @@ a:active {
   margin: 0.8em;
 }
 
-
-html {
-  height: 100%;
-  //background-color: #465875;
-  background-color : #4b555f;
-  font-size: 1.6em;
+#navbar h2 {
+  color: white;
+  font-family: sans-serif;
 }
